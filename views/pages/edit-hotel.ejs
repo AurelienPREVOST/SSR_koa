@@ -1,0 +1,26 @@
+<h1>Modifier l'hôtel <%= hotel.name %></h1>
+<form action="/edit-hotel/<%= hotel.id %>" method="POST">
+    <div>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" value="<%= hotel.name %>" required>
+    </div>
+    <div>
+        <label for="city">Ville:</label>
+        <input type="text" id="city" name="city" value="<%= hotel.city %>" required>
+    </div>
+    <div>
+        <label for="rating">Note:</label>
+        <input type="number" id="rating" name="rating" value="<%= hotel.rating %>" min="1" max="5" required>
+    </div>
+    <div>
+        <label for="price">Prix:</label>
+        <input type="number" id="price" name="price" value="<%= hotel.price %>" required>
+    </div>
+    <div>
+        <label for="image">Image URL:</label>
+        <input type="url" id="image" name="image" value="<%= hotel.image %>" required>
+    </div>
+    <div>
+        <button type="submit">Enregistrer les modifications</button>
+    </div>
+</form>

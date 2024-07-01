@@ -1,0 +1,26 @@
+<h1>Ajouter un nouvel hôtel</h1>
+<form action="/add-hotel" method="POST">
+    <div>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="city">Ville:</label>
+        <input type="text" id="city" name="city" required>
+    </div>
+    <div>
+        <label for="rating">Note:</label>
+        <input type="number" id="rating" name="rating" min="1" max="5" required>
+    </div>
+    <div>
+        <label for="price">Prix:</label>
+        <input type="number" id="price" name="price" required>
+    </div>
+    <div>
+        <label for="image">Image URL:</label>
+        <input type="url" id="image" name="image" required>
+    </div>
+    <div>
+        <button type="submit">Ajouter Hôtel</button>
+    </div>
+</form>

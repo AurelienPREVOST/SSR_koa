@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <% if (typeof user === 'undefined') { %>
+            <a href="/login">Connexion</a>
+        <% } else { %>
+            <span>Welcome, <%= user.email %> (<%= user.status %>)</span>
+            <a href="/logout">Déconnexion</a>
+        <% } %>
+        <a href="/list">Tout voir</a>
+    </nav>
+    <main>
+        <%- body %>
+    </main>
+    <footer>
+        footer
+    </footer>
+</body>
+</html>

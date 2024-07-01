@@ -1,0 +1,14 @@
+<h1>List Page</h1>
+<div class="hotel-list">
+    <% hotels.forEach(hotel => { %>
+        <div class="hotel-card">
+            <a href="/list/<%= hotel.id %>">
+                <img src="<%= hotel.image %>" alt="<%= hotel.name %>">
+                <h2><%= hotel.name %></h2>
+                <p>City: <%= hotel.city %></p>
+                <p>Rating: <%= hotel.rating %> / 5</p>
+                <p>Price: $<%= hotel.price %> per night</p>
+            </a>
+        </div>
+    <% }) %>
+</div>

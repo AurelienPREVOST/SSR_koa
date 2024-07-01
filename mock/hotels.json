@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "image": "https://via.placeholder.com/150",
+    "name": "Hotel Sunshine",
+    "city": "Paris",
+    "rating": 4.5,
+    "price": 150
+  },
+  {
+    "id": 2,
+    "image": "https://via.placeholder.com/150",
+    "name": "Ocean View",
+    "city": "Nice",
+    "rating": 4,
+    "price": 200
+  },
+  {
+    "id": 3,
+    "image": "https://via.placeholder.com/150",
+    "name": "Mountain Retreat",
+    "city": "Chamonix",
+    "rating": 5,
+    "price": 300
+  },
+  {
+    "id": 4,
+    "image": "https://via.placeholder.com/150",
+    "name": "City Center Hotel",
+    "city": "Lyon",
+    "rating": 3.5,
+    "price": 100
+  },
+  {
+    "id": 6,
+    "image": "https://via.placeholder.com/150",
+    "name": "Beach Resort",
+    "city": "Marseille",
+    "rating": 4.3,
+    "price": 250
+  },
+  {
+    "id": 7,
+    "image": "https://via.placeholder.com/150",
+    "name": "Lakeside Lodge",
+    "city": "Annecy",
+    "rating": 4.7,
+    "price": 180
+  },
+  {
+    "id": 8,
+    "image": "https://via.placeholder.com/150",
+    "name": "Historic Hotel",
+    "city": "Versailles",
+    "rating": 4.2,
+    "price": 160
+  },
+  {
+    "id": 9,
+    "image": "https://via.placeholder.com/150",
+    "name": "Modern Suites",
+    "city": "Lille",
+    "rating": 3.9,
+    "price": 110
+  },
+  {
+    "id": 10,
+    "image": "https://via.placeholder.com/150",
+    "name": "Riverside Hotel",
+    "city": "Strasbourg",
+    "rating": 4.6,
+    "price": 210
+  },
+  {
+    "id": 11,
+    "name": "TEST_EDIT",
+    "city": "CISSE",
+    "rating": "5",
+    "price": "99",
+    "image": "https://hotellittreparis.com/_novaimg/5117170-1516564_0_322_2200_1200_2200_1200.rc.jpg"
+  }
+]
